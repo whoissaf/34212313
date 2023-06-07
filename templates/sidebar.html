@@ -1,0 +1,49 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@feathericons/feather@4.28.0/dist/feather.min.css">
+<div class="container-fluid">
+	<div class="row">
+	  <div id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-body-tertiary sidebar collapse">
+		<div class="position-sticky pt-3 sidebar-sticky">
+		  <ul class="nav flex-column">
+			<li class="nav-item">
+			  <a class="nav-link active" aria-current="page" href="/">
+				<span data-feather="database" class="align-text-bottom"></span>
+				Data Mahasiswa
+			  </a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="/addprsn">
+				<span data-feather="user" class="align-text-bottom"></span>
+				Register 
+			  </a>
+			  <li class="nav-item">
+				<a class="nav-link" href="/fr_page">
+				  <span data-feather="smile" class="align-text-bottom"></span>
+				Scan Wajah
+				</a>
+  
+		  <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-body-secondary text-uppercase">
+			<span>Laporan Penting</span>
+			  <span data-feather="download" class="align-text-bottom"></span>
+			</a>
+		  </h6>
+		  <ul class="nav flex-column mb-2">
+			<li class="nav-item">
+			  <a class="nav-link" href="{{ url_for('download_txt') }}">
+				<span data-feather="file-text" class="align-text-bottom"></span>
+				Download File Presensi
+			  </a>
+			</li>
+			
+			
+		  </ul>
+		</div>
+		
+	  </nav>
+	</div> 
+	
+</div>
+<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+<script>
+	feather.replace();
+</script>
+	
